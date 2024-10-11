@@ -1,4 +1,3 @@
-// src/RemoverLembrete.js
 import React from 'react';
 
 function RemoverLembrete({ lembretes, setLembretes }) {
@@ -10,7 +9,7 @@ function RemoverLembrete({ lembretes, setLembretes }) {
 
   return (
     <div>
-      <h3 className="mt-4">Remover Lembrete</h3>
+      <h5 className="mt-4">Remover Lembrete</h5>
       <ul className="list-group">
         {lembretes.length === 0 ? (
           <li className="list-group-item">Nenhum lembrete disponível para remover.</li>
@@ -19,7 +18,7 @@ function RemoverLembrete({ lembretes, setLembretes }) {
             <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
               {lembrete}
               <button
-                className="btn btn-danger btn-sm"
+                className="btn btn-danger btn-sm shadow"
                 onClick={() => removerLembrete(index)} // Chama a função para remover o lembrete
               >
                 Apagar

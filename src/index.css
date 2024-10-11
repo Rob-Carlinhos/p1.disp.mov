@@ -1,18 +1,40 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #4b0082; /* Fundo violeta escuro */
-  color: #ffff00; /* Texto amarelo */
+  background-color: #f0f8ff; /* Cor de fundo azul claro */
+  color: #333; /* Cor do texto */
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  background-color: #6a0dad; /* Fundo violeta intenso para blocos de código */
-  color: #ffff00; /* Texto de código em amarelo */
-  padding: 5px; /* Espaçamento interno para blocos de código */
-  border-radius: 5px; /* Bordas arredondadas para blocos de código */
-  display: inline-block; /* Mantém o código inline */
+.container {
+  background-color: #ffffff; /* Cor de fundo branca para o container */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+h1, h3, h5 {
+  color: #007bff; /* Cor azul para os títulos */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }

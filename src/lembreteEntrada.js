@@ -3,7 +3,7 @@ import React from 'react';
 
 function LembreteEntrada({ novoLembrete, setNovoLembrete, adicionarLembrete }) {
   return (
-    <div className="input-group mb-3">
+    <div className="input-group mb-3 shadow-sm">
       <input
         type="text"
         className="form-control"
@@ -12,7 +12,7 @@ function LembreteEntrada({ novoLembrete, setNovoLembrete, adicionarLembrete }) {
         onChange={(e) => setNovoLembrete(e.target.value)} // Atualiza o valor digitado
       />
       <button
-        className="btn btn-primary"
+        className="btn btn-primary shadow-sm"
         onClick={adicionarLembrete} // Chama a função para adicionar o lembrete
       >
         Adicionar

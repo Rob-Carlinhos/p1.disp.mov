@@ -18,8 +18,10 @@ function App() {
   };
 
   return (
-    <div className="container">
-      <h1 className="text-center mt-4">Hello, Lembretes!</h1>
+<div className="container my-5">
+  <div className="card shadow-sm">
+    <div className="card-body">
+      <h1 className="text-center mb-4">Hello, Lembretes!</h1>
 
       {/* Componente de entrada para novo lembrete */}
       <LembreteEntrada
@@ -32,8 +34,10 @@ function App() {
       <LembreteLista lembretes={lembretes} />
 
       {/* Componente para remover lembretes */}
-      <RemoverLembrete lembretes={lembretes} setLembretes={setLembretes} />
+      <RemoverLembrete lembretes={lembretes} setLembretes={setLembretes} texto="Excluir Lembretes" />
     </div>
+  </div>
+</div>
   );
 }
 
