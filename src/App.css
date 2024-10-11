@@ -1,9 +1,8 @@
 /* Estilos gerais */
+
+
 body {
-  background-color: #4b0082; /* Fundo violeta escuro */
-  margin: 0;
-  font-family: 'Arial', sans-serif; /* Fonte padrão */
-  color: #ffff00; /* Texto em amarelo */
+  background-color: #add8e6;
 }
 
 .App-header {

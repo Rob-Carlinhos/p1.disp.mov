@@ -1,4 +1,15 @@
-body {
+.input-group {
+  background-color: #add8e6; /* Azul claro */
+  padding: 10px; /* Opcional: adiciona um pouco de espaçamento interno */
+  border-radius: 5px; /* Opcional: arredonda os cantos */
+}
+
+.list-group-item {
+  background-color: #add8e6; /* Azul claro */
+
+}
+
+.body {
   background-color: #f0f8ff; /* Cor de fundo azul claro */
   color: #333; /* Cor do texto */
   font-family: Arial, sans-serif;
