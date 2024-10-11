@@ -1,0 +1,40 @@
+/* Estilos gerais */
+body {
+  background-color: #4b0082; /* Fundo violeta escuro */
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+  color: #ffff00; /* Texto em amarelo */
+}
+
+.App-header {
+  background-color: #6a0dad; /* Cor de fundo violeta mais intenso */
+  color: #ffff00; /* Texto amarelo */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra do cabeçalho */
+}
+
+h1 {
+  font-weight: bold; /* Negrito para o título */
+}
+
+/* Estilo do container */
+.container {
+  margin-top: 20px; /* Margem superior */
+  max-width: 600px; /* Largura máxima do container */
+}
+
+/* Estilo do botão do lembrete */
+.btn-success {
+  background-color: #ffd700; /* Cor amarelo brilhante para o botão adicionar */
+  border: none; /* Remove a borda padrão */
+}
+
+.btn-danger {
+  background-color: #ff4500; /* Cor vermelho-alaranjado para o botão apagar */
+  border: none; /* Remove a borda padrão */
+}
+
+.btn:hover {
+  opacity: 0.9; /* Efeito de hover para botões */
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4b0082; /* Fundo violeta escuro */
+  color: #ffff00; /* Texto amarelo */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #6a0dad; /* Fundo violeta intenso para blocos de código */
+  color: #ffff00; /* Texto de código em amarelo */
+  padding: 5px; /* Espaçamento interno para blocos de código */
+  border-radius: 5px; /* Bordas arredondadas para blocos de código */
+  display: inline-block; /* Mantém o código inline */
+}
